@@ -1,10 +1,10 @@
 # Lecture: Arrays
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/tI_tIZFyKBw?screen=SOJ4zTf_nkg)
+[![](thumbnail.jpg)](https://video.cs50.io/XmYnsO7iSI8?start=752)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/tI_tIZFyKBw?screen=SOJ4zTf_nkg)
+[Open in CS50 video player](https://video.cs50.io/XmYnsO7iSI8?start=752)
 
 ## Compiling
 

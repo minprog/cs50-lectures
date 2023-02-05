@@ -1,10 +1,10 @@
 # Lecture: C
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/zYierUhIFNQ?screen=VmZ-cWfb2QM)
+[![](thumbnail.jpg)](https://video.cs50.io/ywg7cW0Txs4?start=802)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/zYierUhIFNQ?screen=VmZ-cWfb2QM)
+[Open in CS50 video player](https://video.cs50.io/ywg7cW0Txs4?start=802)
 
 ## C
 
@@ -30,7 +30,7 @@
 
 ## CS50 IDE
 
-*   To start writing our code quickly, we'll use a tool for the course, [**CS50 IDE**](https://ide.cs50.io/), an _integrated development environment_ which includes programs and features for writing code. CS50 IDE is built atop a popular cloud-based IDE used by general programmers, but with additional educational features and customization.
+*   To start writing our code quickly, we'll use a tool for the course, [**CS50 Code**](https://code.cs50.io/), an _integrated development environment_ which includes programs and features for writing code. CS50 IDE is built atop a popular cloud-based IDE used by general programmers, but with additional educational features and customization.
 *   We'll open the IDE, and after logging in we'll see a screen like this:  
     ![two panels, top blank, bottom with prompt](cs50_ide.png)
     *   The top panel, blank, will contain text files within which we can write our code.
@@ -54,7 +54,6 @@
 *   In the terminal in the bottom pane of our IDE, we'll **compile** our code before we can run it. Computers only understand binary, which is also used to represent instructions like printing something to the screen. Our **source code** has been written in characters we can read, but it needs to be compiled: converted to **machine code**, patterns of zeros and ones that our computer can directly understand.
 *   A program called a **compiler** will take source code as input and produce machine code as output. In the CS50 IDE, we have access to a compiler already, through a command called **make**. In our terminal, we'll type in `make hello`, which will automatically find our `hello.c` file with our source code, and compile it into a program called `hello`. There will be some output, but no error messages in yellow or red, so our program compiled successfully.
 *   To run our program, we'll type in another command, `./hello`, which looks in the current folder, `.`, for a program called `hello`, and runs it.
-*   The `<main class="col-md markdown-body" style="margin-bottom: 61px; margin-top: 0px;" in the terminal is an indicator of where the prompt is, or where we can type in more commands.
 
 
 
