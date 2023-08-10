@@ -1,10 +1,10 @@
 # Lecture: Python<br><small>David Malan</small>
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/5Jppcxc1Qzc?start=888)
+[![](thumbnail.jpg)](https://video.cs50.io/5Jppcxc1Qzc)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/5Jppcxc1Qzc?start=888)
+[Open in CS50 video player](https://video.cs50.io/5Jppcxc1Qzc)
 
 ## Python Basics
 

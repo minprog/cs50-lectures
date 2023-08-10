@@ -1,10 +1,10 @@
 # Lecture: C
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/ywg7cW0Txs4?start=802)
+[![](thumbnail.jpg)](https://video.cs50.io/ywg7cW0Txs4)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/ywg7cW0Txs4?start=802)
+[Open in CS50 video player](https://video.cs50.io/ywg7cW0Txs4)
 
 ## C
 

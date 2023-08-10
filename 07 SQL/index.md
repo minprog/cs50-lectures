@@ -1,10 +1,10 @@
 # Lecture: SQL
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/zrCLRC3Ci1c?start=655)
+[![](thumbnail.jpg)](https://video.cs50.io/zrCLRC3Ci1c)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/zrCLRC3Ci1c?start=655)
+[Open in CS50 video player](https://video.cs50.io/zrCLRC3Ci1c)
 
 ## Spreadsheets
 

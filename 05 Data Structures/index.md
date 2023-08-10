@@ -1,10 +1,10 @@
 # Lecture: Data Structures
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/X8h4dq9Hzq8?start=902)
+[![](thumbnail.jpg)](https://video.cs50.io/X8h4dq9Hzq8)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/X8h4dq9Hzq8?start=902)
+[Open in CS50 video player](https://video.cs50.io/X8h4dq9Hzq8)
 
 ## Resizing arrays
 

@@ -1,10 +1,10 @@
 # Lecture: Algorithms
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/4oqjcKenCH8?start=851)
+[![](thumbnail.jpg)](https://video.cs50.io/4oqjcKenCH8)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/4oqjcKenCH8?start=851)
+[Open in CS50 video player](https://video.cs50.io/4oqjcKenCH8)
 
 ## Last week
 

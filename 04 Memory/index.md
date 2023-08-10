@@ -1,10 +1,10 @@
 # Lecture: Memory
 
 <div markdown="1" class="extend">
-[![](thumbnail.jpg)](https://video.cs50.io/AcWIE9qazLI?start=873)
+[![](thumbnail.jpg)](https://video.cs50.io/AcWIE9qazLI)
 </div>
 
-[Open in CS50 video player](https://video.cs50.io/AcWIE9qazLI?start=873)
+[Open in CS50 video player](https://video.cs50.io/AcWIE9qazLI)
 
 ## Hexadecimal
 
