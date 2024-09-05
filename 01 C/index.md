@@ -30,13 +30,8 @@
 
 ## CS50 IDE
 
-*   To start writing our code quickly, we'll use a tool for the course, [**CS50 Code**](https://code.cs50.io/), an _integrated development environment_ which includes programs and features for writing code. CS50 IDE is built atop a popular cloud-based IDE used by general programmers, but with additional educational features and customization.
-*   We'll open the IDE, and after logging in we'll see a screen like this:  
-    ![two panels, top blank, bottom with prompt](cs50_ide.png)
-    *   The top panel, blank, will contain text files within which we can write our code.
-    *   The bottom panel, a **terminal** window, will allow us to type in various commands and run them, including programs from our code above.
-*   Our IDE runs in the cloud and comes with a standard set of tools, but know that there are many desktop-based IDEs as well, offering more customization and control for different programming purposes, at the cost of greater setup time and effort.
-*   In the IDE, we'll go to File > New File, and then File > Save to save our file as `hello.c`, indicating that our file will be code written in C. We'll see that the name of our tab has indeed changed to `hello.c`, and now we'll paste our code from above:
+*   Do not use the CS50 IDE! Instead, you have your working environment according to the instructions.
+*   In your editor, go to File > New File, and then File > Save to save our file as `hello.c`, indicating that our file will be code written in C. We'll see that the name of our tab has indeed changed to `hello.c`, and now we'll paste our code from above:
 
         #include <stdio.h>
 
