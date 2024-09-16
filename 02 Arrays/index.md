@@ -125,51 +125,7 @@
             }
 
     *   Now, we can see that `i` started at 0 and continued until it was 10, but we should have our `for` loop stop once it's at 10, with `i < 10` instead of `i <= 10`.
-*   In the CS50 IDE, we have another tool, **`debug50`**, to help us debug programs. This is a tool written by staff that's built on a standard tool called `gdb`. Both of these **debuggers** are programs that will run our own programs step-by-step and let us look at variables and other information while our program is running.
-*   We'll run the command `debug50 ./buggy0`, and it will tell us to recompile our program since we changed it. Then, it'll tell us to add a **breakpoint**, or indicator for a line of code where the debugger should pause our program.
-    *   By using the up and down keys in the terminal, we can reuse commands from the past without typing them again.
-*   We'll click to the left of line 6 in our code, and a red circle will appear:  
-    ![code editor with red icon next to line 6 of code](breakpoint.png)
-*   Now, if we run `debug50 ./buggy0` again, we'll see the debugger panel open on the right:  
-    ![debugger panel with controls, variables](debugger_panel.png)
-*   We see that the variable we made, `i`, is under the `Local Variables` section, and see that there's a value of `0`.
-*   Our breakpoint has paused our program on line 6, highlighting that line in yellow. To continue, we have a few controls in the debugger panel. The blue triangle will continue our program until we reach another breakpoint or the end of our program. The curved arrow to its right, Step Over, will "step over" the line, running it and pausing our program again immediately after.
-*   So, we'll use the curved arrow to run the next line, and see what changes after. We're at the `printf` line, and pressing the curved arrow again, we see a single `#` printed to our terminal window. With another click of the arrow, we see the value of `i` change to `1`. We can keep clicking the arrow to watch our program run, one line at a time.
-*   To exit the debugger, we can press `control + C` to stop the running program.
-*   Let's look at another example, `buggy1.c`:
-
-        #include <cs50.h>
-        #include <stdio.h>
-
-        // Prototype
-        int get_negative_int(void);
-
-        int main(void)
-        {
-            // Get negative integer from user
-            int i = get_negative_int();
-            printf("%i\n", i);
-        }
-
-        int get_negative_int(void)
-        {
-            int n;
-            do
-            {
-                n = get_int("Negative Integer: ");
-            }
-            while (n < 0);
-            return n;
-        }
-
-    *   We've implemented another function, `get_negative_int`, to get a negative integer from the user. We need to remember the prototype before our `main` function, and then our code compiles.
-*   But when we run our program, it keeps asking us for a negative integer, even after we provide one. We'll set a breakpoint on line 10, `int i = get_negative_int();`, since it's the first interesting line of code. We'll run `debug50 ./buggy1`, and see in the debugging panel's Call Stack section that we're in the `main` function. (The "call stack" refers to all the functions that have been called in our program at the time, and not yet returned from. So far, only the `main` function has been called.)
-*   We'll click the arrow pointing down, Step Into, and the debugger brings us _into_ the function called on that line, `get_negative_int`. We see the call stack updated with the function's name, and the variable `n` with a value of `0`:  
-    ![n = get_int(... highlighted](step_into.png)
-*   We can click the Step Over arrow again, and see `n` be updated with `-1`, which is indeed what we entered:  
-    ![while (n < 0) highlighted, debugger panel with n having a value of -1](step_over.png)
-*   We click Step Over again, and we see our program going back inside the loop. Our `while` loop is still running, so the condition that it checks must be `true` still. And we do see that `n < 0` is true even if we entered a negative integer, so we should fix our bug by changing it to `n >= 0`.
-*   We can save lots of time in the future by investing a little bit now to learn how to use `debug50`!
+*   In the CS50 IDE, we have another tool, **`debug50`**, to help us debug programs. This is a tool written by staff that's built on a standard tool called `gdb`. Both of these **debuggers** are programs that will run our own programs step-by-step and let us look at variables and other information while our program is running. **Since we work with Notepad++ / TextMate in this course, we will not be using this tool.**
 *   We can also use `ddb`, short for "duck debugger", a [real technique](https://en.wikipedia.org/wiki/Rubber_duck_debugging) where we explain what we're trying to do to a rubber duck, and oftentimes we'll realize our own mistake in logic or implementation as we're explaining it.
 
 
